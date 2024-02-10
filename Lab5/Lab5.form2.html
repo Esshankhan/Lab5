@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+<style>
+
+#save{
+    position: relative;
+    left: 250px;
+}
+form{
+    font-size: 30px;
+}
+
+#radius{
+    border-radius: 5px;
+    position: relative;
+    width: 220px;
+    height: 28px;
+}
+
+</style>
+
+</head>
+<body>
+    <form action="#">
+        <p style="font-size: 30px;">  Payment </p>
+        <hr style="width: 700px; position: relative; right: 900px;">
+<br>
+        <label for="card_holder_name" style="margin: 10px;">Card holder's name </label>
+        <input type="text" name="card_holder_name" id="radius"><br><br>
+        <label for="card_number" style=" position: relative;  left: 80px;">Card number </label>
+        <input type="text" name="card_number" id="radius" style=" position: relative; left: 95px;"><br><br>
+        <label for="card_expiry_date  " style="margin: 32px;" >Card expiry date </label>
+
+        <select name="Month" id="radius" style=" position: relative;  left: -12px;">
+            <option value="jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="aug">Aug</option>
+            <option value="september">September</option>
+            <option value="oct">Oct</option>
+            <option value="nov">Nov</option>
+            <option value="dec">Dec</option>
+        
+        </select>
+
+        <select name="date" id="radius">             
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            </optgroup>
+        </select><br><br>
+
+        <label for="card cvv" style="margin: 70px; position: relative ; left: 30px;" >Card cvv </label>
+        <input type="text" name="cars" id="radius"><br><br>
+        <input type="checkbox" name="save" id="save"value="Black Olives"><label id="save" for="save">save card on file?</label>
+
+    <br><br><input type="submit" value="Pay now" id="save" style="background-color: rgba(5, 162, 5, 0.712); color: white; " id="radius">
+    </form>
+</body>
+</html>
